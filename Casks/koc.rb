@@ -19,25 +19,25 @@ cask "koc" do
     end
   end
 
-  version "0.33.0"
+  version "0.33.1"
 
   on_macos do
     on_arm do
-      sha256 "fb5a5b24ac8dc5b9af95315a7b0d2a722b594ddad09329483ff27ce4af6a145a"
+      sha256 "033f5990577fb33b219e1be365efe20030e4cbfbceac672f2c6f35589ea9a04f"
       url "https://github.com/ftarasenko/go-openstackclient/releases/download/v#{version}/koc_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b212e9726d6feffa6976590c949a1635b50a8aa82f71caf2ffe76b6793e73988"
+      sha256 "04fe3eda5eb15a230407561e70059ce6a3c07b10c8fdfaa3a49cf3fbf9282489"
       url "https://github.com/ftarasenko/go-openstackclient/releases/download/v#{version}/koc_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f825cbc0f448547fd75e8b02f71b2586af0c6d3856f13db98ac60a4936763815"
+      sha256 "f1d8f44729b8d8b1d61a5ff412333018fcda37993fbc38630fb288838821b58f"
       url "https://github.com/ftarasenko/go-openstackclient/releases/download/v#{version}/koc_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e6357b14942f1871227cc678eb28b3eaab9fc5d78781cfe84dbe85061ae0d387"
+      sha256 "97b5a23463f7fbd28805b3c432acdeb37b788e3212b885dfcdc120d85e5ddda5"
       url "https://github.com/ftarasenko/go-openstackclient/releases/download/v#{version}/koc_#{version}_linux_amd64.tar.gz"
     end
   end
