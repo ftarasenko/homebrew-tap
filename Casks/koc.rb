@@ -19,25 +19,25 @@ cask "koc" do
     end
   end
 
-  version "0.42.0"
+  version "0.43.0"
 
   on_macos do
     on_arm do
-      sha256 "a836e5501939063c2b865e207cb1d7c0f3d0060c28fca5995c5282a7fc3edf34"
+      sha256 "25f6f503f0144a8aaa5b95739b5c1395fef5457b7666ab0ffad87f8373c7e88f"
       url "https://github.com/ftarasenko/koc/releases/download/v#{version}/koc_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8451a2ea14f184b3217db3a1d190c7e2d843705f5052ead05817a3383645e06c"
+      sha256 "b4af87275ba0d442a2d64aa969160f4f3d695ffedbea3bded6e10baae9c28f0c"
       url "https://github.com/ftarasenko/koc/releases/download/v#{version}/koc_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "b70f08a1ccd4e20c15e15791c868530a08ec14b1fedf70bcef81cab5372cdc9b"
+      sha256 "c43659df788c62cfd2f7ae391b1fca374530a84c23378251319685196d1bf670"
       url "https://github.com/ftarasenko/koc/releases/download/v#{version}/koc_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e285edb42725ccac472e120baccea763ef986aced1bcc9685fa5d051446bebd7"
+      sha256 "3906d1b7458c6319d10459f9264f201713a6929c9fe594a37a6b6098733d38d7"
       url "https://github.com/ftarasenko/koc/releases/download/v#{version}/koc_#{version}_linux_amd64.tar.gz"
     end
   end
@@ -52,5 +52,5 @@ cask "koc" do
 
   binary "koc"
 
-  # No zap stanza required
+  zap :not_required
 end
