@@ -24,27 +24,27 @@ cask "koc" do
   on_macos do
     on_arm do
       sha256 "a836e5501939063c2b865e207cb1d7c0f3d0060c28fca5995c5282a7fc3edf34"
-      url "https://github.com/ftarasenko/go-openstackclient/releases/download/v#{version}/koc_#{version}_darwin_arm64.tar.gz"
+      url "https://github.com/ftarasenko/koc/releases/download/v#{version}/koc_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
       sha256 "8451a2ea14f184b3217db3a1d190c7e2d843705f5052ead05817a3383645e06c"
-      url "https://github.com/ftarasenko/go-openstackclient/releases/download/v#{version}/koc_#{version}_darwin_amd64.tar.gz"
+      url "https://github.com/ftarasenko/koc/releases/download/v#{version}/koc_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
       sha256 "b70f08a1ccd4e20c15e15791c868530a08ec14b1fedf70bcef81cab5372cdc9b"
-      url "https://github.com/ftarasenko/go-openstackclient/releases/download/v#{version}/koc_#{version}_linux_arm64.tar.gz"
+      url "https://github.com/ftarasenko/koc/releases/download/v#{version}/koc_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
       sha256 "e285edb42725ccac472e120baccea763ef986aced1bcc9685fa5d051446bebd7"
-      url "https://github.com/ftarasenko/go-openstackclient/releases/download/v#{version}/koc_#{version}_linux_amd64.tar.gz"
+      url "https://github.com/ftarasenko/koc/releases/download/v#{version}/koc_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "koc"
   desc "Single-binary OpenStack CLI for KeyStack (gophercloud v2)"
-  homepage "https://github.com/ftarasenko/go-openstackclient"
+  homepage "https://github.com/ftarasenko/koc"
 
   livecheck do
     skip "Auto-generated on release."
