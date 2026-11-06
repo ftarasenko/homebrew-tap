@@ -9,7 +9,7 @@ brew install ftarasenko/tap/koc
 ```
 
 `koc` is a statically-linked Go replacement for `python-openstackclient`.
-Source and docs: https://github.com/ftarasenko/go-openstackclient
+Source and docs: https://github.com/ftarasenko/koc
 
 > `Casks/koc.rb` is generated and updated automatically by GoReleaser on each
-> release of `go-openstackclient`. Do not edit it by hand.
+> release of `koc`. Do not edit it by hand.
